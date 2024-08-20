@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: Gray;
+}
+
+form input{
+    display: block;
+    margin: 0 auto;
+    font-size: 1.4em;
+
+}
+
+#titleInput{
+    width: 500px;
+    height: 25px;
+    padding: 10px;
+}
+
+#submitBtn{
+    height: 40px;
+    width: 250px;
+    margin: 10px auto
+}
+
+#searchResult{
+    width: 200px;
+    height: fit-content;
+    float: left;
+    margin: 10px;
+    text-align: center  ;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border: 1px solid;
+}
+
+#queryResults{
+    background-color: hsl(0, 0%, 28%);
+}
