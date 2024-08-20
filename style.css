@@ -26,6 +26,8 @@ form input{
     width: 200px;
     height: fit-content;
     float: left;
+    padding: 10px;
+
     margin: 10px;
     text-align: center  ;
     word-wrap: break-word;
@@ -35,6 +37,25 @@ form input{
     border: 1px solid;
 }
 
+#searchResult button{
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
+
 #queryResults{
-    background-color: hsl(0, 0%, 28%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centering content */
+    border: 2px solid;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 12%);
+    color:hsl(0, 0%, 93%)
+}
+
+#queryResults::after {
+    content: "";
+    display: table;
+    clear: both;
 }

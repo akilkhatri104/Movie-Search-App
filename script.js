@@ -61,10 +61,16 @@ function displayQueryResults(data){
         const releaseDate = document.createElement('p')
         releaseDate.innerHTML = result.release_date
 
+        const moreDetails = document.createElement('button')
+        moreDetails.innerHTML = 'More Details'
+
+        
         newDiv.appendChild(posterTag)
         newDiv.appendChild(movieTitle)
         newDiv.appendChild(releaseDate)
+        newDiv.appendChild(moreDetails)
 
+        
         
     } )
 }
