@@ -29,7 +29,7 @@ form input{
     padding: 10px;
 
     margin: 10px;
-    text-align: center  ;
+    text-align: center;
     word-wrap: break-word;
     overflow-wrap: break-word;
     overflow: hidden;
@@ -45,13 +45,13 @@ form input{
 
 
 #queryResults{
-    display: flex;
     flex-wrap: wrap;
     justify-content: center; /* Centering content */
     border: 2px solid;
     margin: 0 auto;
     background-color: hsl(0, 0%, 12%);
-    color:hsl(0, 0%, 93%)
+    color:hsl(0, 0%, 93%);
+    display: none;
 }
 
 #queryResults::after {
@@ -59,3 +59,24 @@ form input{
     display: table;
     clear: both;
 }
+
+
+#movieDetails{
+    display: none;
+    background-color: hsl(0, 0%, 12%);
+    color:hsl(0, 0%, 93%);
+    margin: 0 auto;
+    border: 2px solid;
+    width: 90%;
+    height: fit-content;
+    padding: 10px;
+}
+
+#movieDetails img{
+    padding: 25px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
